@@ -172,7 +172,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1-min.png);
+    url(../images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -348,7 +348,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-soc-link:hover .team-soc-link:focus {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #404bbf;
 }
 
@@ -431,7 +432,7 @@ img {
   color: #434455;
 }
 
-.portfolio-image-list:hover.portfolio-image-text {
+.portfolio-item:hover .portfolio-image-text {
   transform: translateY(0%);
 }
 
