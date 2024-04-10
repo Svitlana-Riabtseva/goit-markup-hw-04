@@ -124,6 +124,10 @@ img {
   color: #404bbf;
 }
 
+.header-menu-link .current {
+  color: #404bbf;
+}
+
 .header-address {
   font-style: normal;
   margin-left: auto;
@@ -139,7 +143,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -190,7 +194,8 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
-  transition: ackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solutions-btn:hover,
@@ -214,6 +219,7 @@ img {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+  background-color: #f4f4fd;
 }
 
 .features-icon-link {
@@ -338,6 +344,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-soc-link:hover .team-soc-link:focus {
+  background-color: #404bbf;
 }
 
 .team-icon-list:hover.team-soc-link,
@@ -419,7 +430,7 @@ img {
   color: #434455;
 }
 
-.portfolio-item:hover.portfolio-image-text {
+.portfolio-image-list:hover.portfolio-image-text {
   transform: translateY(0%);
 }
 
@@ -435,6 +446,11 @@ img {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-main {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-container {
@@ -488,6 +504,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
